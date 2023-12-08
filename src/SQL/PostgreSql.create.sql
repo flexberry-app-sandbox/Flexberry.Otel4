@@ -6,8 +6,8 @@
 CREATE TABLE Комната (
  primaryKey UUID NOT NULL,
  КодКомнаты INT NULL,
- Класс VARCHAR(1) NULL,
- КолвоМест VARCHAR(1) NULL,
+ Класс VARCHAR(7) NULL,
+ КолвоМест VARCHAR(14) NULL,
  Стоимость DOUBLE PRECISION NULL,
  Отель UUID NOT NULL,
  PRIMARY KEY (primaryKey));

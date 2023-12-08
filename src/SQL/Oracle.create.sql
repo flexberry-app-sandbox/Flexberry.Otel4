@@ -9,9 +9,9 @@ CREATE TABLE "Комната"
 
 	"КодКомнаты" NUMBER(10) NULL,
 
-	"Класс" NVARCHAR2(1) NULL,
+	"Класс" NVARCHAR2(7) NULL,
 
-	"КолвоМест" NVARCHAR2(1) NULL,
+	"КолвоМест" NVARCHAR2(14) NULL,
 
 	"Стоимость" FLOAT(126) NULL,
 

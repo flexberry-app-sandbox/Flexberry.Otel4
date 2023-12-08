@@ -1,9 +1,9 @@
 import { createEnum } from 'ember-flexberry-data/utils/enum-functions';
 
 export default createEnum({
-  1: '',
-  2: '',
-  3: '',
-  4: '',
-  5: ''
+  1: 'Эконом',
+  2: 'Комфорт',
+  3: 'Бизнес',
+  4: 'Премиум',
+  5: 'Элит'
 });

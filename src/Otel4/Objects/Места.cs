@@ -12,6 +12,7 @@ namespace IIS.Otel4
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -28,29 +29,34 @@ namespace IIS.Otel4
     public enum Места
     {
         
+        // *** Start programmer edit section *** (Места.5 CustomAttributes)
+
+        // *** End programmer edit section *** (Места.5 CustomAttributes)
+        [Caption("Пятиместный")]
+        5,
+        
         // *** Start programmer edit section *** (Места.1 CustomAttributes)
 
         // *** End programmer edit section *** (Места.1 CustomAttributes)
+        [Caption("Одноместный")]
         1,
         
         // *** Start programmer edit section *** (Места.2 CustomAttributes)
 
         // *** End programmer edit section *** (Места.2 CustomAttributes)
+        [Caption("Двухместный")]
         2,
         
         // *** Start programmer edit section *** (Места.3 CustomAttributes)
 
         // *** End programmer edit section *** (Места.3 CustomAttributes)
+        [Caption("Трехместный")]
         3,
         
         // *** Start programmer edit section *** (Места.4 CustomAttributes)
 
         // *** End programmer edit section *** (Места.4 CustomAttributes)
+        [Caption("Четырехместный")]
         4,
-        
-        // *** Start programmer edit section *** (Места.5 CustomAttributes)
-
-        // *** End programmer edit section *** (Места.5 CustomAttributes)
-        5,
     }
 }

@@ -6,11 +6,11 @@ CREATE TABLE [Комната] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [Класс] VARCHAR(1)  NULL,
+	 [Класс] VARCHAR(7)  NULL,
 
 	 [КодКомнаты] INT  NULL,
 
-	 [КолвоМест] VARCHAR(1)  NULL,
+	 [КолвоМест] VARCHAR(14)  NULL,
 
 	 [Стоимость] FLOAT  NULL,
 

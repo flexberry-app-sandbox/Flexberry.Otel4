@@ -22,6 +22,7 @@ export default Controller.extend({
             link: 'i-i-s-otel4-доступ-l',
             caption: i18n.t('forms.application.sitemap.регистрация.i-i-s-otel4-доступ-l.caption'),
             title: i18n.t('forms.application.sitemap.регистрация.i-i-s-otel4-доступ-l.title'),
+            icon: 'archive',
             children: null
           }]
         }, {
@@ -33,7 +34,7 @@ export default Controller.extend({
             link: 'i-i-s-otel4-смарт-ключ-l',
             caption: i18n.t('forms.application.sitemap.смарт-ключ.i-i-s-otel4-смарт-ключ-l.caption'),
             title: i18n.t('forms.application.sitemap.смарт-ключ.i-i-s-otel4-смарт-ключ-l.title'),
-            icon: 'edit',
+            icon: 'list',
             children: null
           }]
         }, {
@@ -45,13 +46,13 @@ export default Controller.extend({
             link: 'i-i-s-otel4-должность-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel4-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel4-должность-l.title'),
-            icon: 'folder open',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-otel4-сотрудник-l',
             caption: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel4-сотрудник-l.caption'),
             title: i18n.t('forms.application.sitemap.сотрудники.i-i-s-otel4-сотрудник-l.title'),
-            icon: 'suitcase',
+            icon: 'calendar',
             children: null
           }]
         }, {
@@ -63,13 +64,12 @@ export default Controller.extend({
             link: 'i-i-s-otel4-отель-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel4-отель-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-otel4-отель-l.title'),
-            icon: 'folder open',
+            icon: 'archive',
             children: null
           }, {
             link: 'i-i-s-otel4-комната-l',
             caption: i18n.t('forms.application.sitemap.отель.i-i-s-otel4-комната-l.caption'),
             title: i18n.t('forms.application.sitemap.отель.i-i-s-otel4-комната-l.title'),
-            icon: 'list',
             children: null
           }]
         }

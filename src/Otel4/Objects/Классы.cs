@@ -12,6 +12,7 @@ namespace IIS.Otel4
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,26 +32,31 @@ namespace IIS.Otel4
         // *** Start programmer edit section *** (Классы.1 CustomAttributes)
 
         // *** End programmer edit section *** (Классы.1 CustomAttributes)
+        [Caption("Эконом")]
         1,
         
         // *** Start programmer edit section *** (Классы.2 CustomAttributes)
 
         // *** End programmer edit section *** (Классы.2 CustomAttributes)
+        [Caption("Комфорт")]
         2,
         
         // *** Start programmer edit section *** (Классы.3 CustomAttributes)
 
         // *** End programmer edit section *** (Классы.3 CustomAttributes)
+        [Caption("Бизнес")]
         3,
         
         // *** Start programmer edit section *** (Классы.4 CustomAttributes)
 
         // *** End programmer edit section *** (Классы.4 CustomAttributes)
+        [Caption("Премиум")]
         4,
         
         // *** Start programmer edit section *** (Классы.5 CustomAttributes)
 
         // *** End programmer edit section *** (Классы.5 CustomAttributes)
+        [Caption("Элит")]
         5,
     }
 }
