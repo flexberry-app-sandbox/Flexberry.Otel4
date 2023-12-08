@@ -1,0 +1,1 @@
+docker-compose -p otel4-java up -d

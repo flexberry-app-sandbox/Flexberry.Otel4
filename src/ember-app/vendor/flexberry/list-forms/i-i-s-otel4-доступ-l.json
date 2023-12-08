@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel4-доступ-e",
+  "editForm": "i-i-s-otel4-доступ-e",
+  "external": false,
+  "caption": "Доступ",
+  "name": "IISOtel4ДоступL",
+  "className": "ДоступL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel4-доступ",
+      "modelProjection": "ДоступL"
+    }
+  ]
+}

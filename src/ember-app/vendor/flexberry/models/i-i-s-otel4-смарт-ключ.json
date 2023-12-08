@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISOtel4СмартКлюч",
+  "modelName": "i-i-s-otel4-смарт-ключ",
+  "className": "СмартКлюч",
+  "nameSpace": "IIS.Otel4",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодКлюча",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "статус",
+      "type": "i-i-s-otel4-статусы",
+      "flexberryType": "Статусы",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СмартКлючE",
+      "modelName": "i-i-s-otel4-смарт-ключ",
+      "attrs": [
+        {
+          "name": "кодКлюча",
+          "caption": "Код ключа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "статус",
+          "caption": "Статус",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СмартКлючL",
+      "modelName": "i-i-s-otel4-смарт-ключ",
+      "attrs": [
+        {
+          "name": "кодКлюча",
+          "caption": "Код ключа",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "статус",
+          "caption": "Статус",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

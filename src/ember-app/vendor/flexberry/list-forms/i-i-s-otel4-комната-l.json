@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel4-комната-e",
+  "editForm": "i-i-s-otel4-комната-e",
+  "external": false,
+  "caption": "Комната",
+  "name": "IISOtel4КомнатаL",
+  "className": "КомнатаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel4-комната",
+      "modelProjection": "КомнатаL"
+    }
+  ]
+}

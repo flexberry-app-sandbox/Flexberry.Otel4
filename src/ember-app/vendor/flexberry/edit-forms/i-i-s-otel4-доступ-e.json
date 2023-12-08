@@ -1,0 +1,39 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "СмартКлюч",
+      "projection": "СмартКлючL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Сотрудник",
+      "projection": "СотрудникL",
+      "detailModelName": null
+    },
+    {
+      "master": null,
+      "displayAttributeName": null,
+      "required": false,
+      "relationName": "Комната",
+      "projection": "КомнатаL",
+      "detailModelName": null
+    }
+  ],
+  "external": false,
+  "caption": "Доступ",
+  "name": "IISOtel4ДоступE",
+  "className": "ДоступE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel4-доступ",
+      "modelProjection": "ДоступE"
+    }
+  ]
+}

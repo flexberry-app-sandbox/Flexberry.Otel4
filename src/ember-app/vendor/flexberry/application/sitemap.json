@@ -1,0 +1,81 @@
+﻿{
+  "applicationCaption": "Otel4",
+  "applicationTitle": "Otel4",
+  "items": [
+    {
+      "link": null,
+      "menuName": "регистрация",
+      "caption": "Регистрация",
+      "title": "Регистрация",
+      "children": [
+        {
+          "link": "i-i-s-otel4-доступ-l",
+          "menuName": null,
+          "caption": "Регистрация",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "смарт-ключ",
+      "caption": "Смарт ключ",
+      "title": "Смарт ключ",
+      "children": [
+        {
+          "link": "i-i-s-otel4-смарт-ключ-l",
+          "menuName": null,
+          "caption": "СмартКлюч",
+          "title": "Смарт ключ",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "сотрудники",
+      "caption": "Сотрудники",
+      "title": "Сотрудники",
+      "children": [
+        {
+          "link": "i-i-s-otel4-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "Должность",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel4-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "Сотрудник",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "отель",
+      "caption": "Отель",
+      "title": "Отель",
+      "children": [
+        {
+          "link": "i-i-s-otel4-отель-l",
+          "menuName": null,
+          "caption": "Отель",
+          "title": "Отель",
+          "children": null
+        },
+        {
+          "link": "i-i-s-otel4-комната-l",
+          "menuName": null,
+          "caption": "Комната",
+          "title": "Комната",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

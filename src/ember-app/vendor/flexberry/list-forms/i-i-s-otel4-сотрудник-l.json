@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-otel4-сотрудник-e",
+  "editForm": "i-i-s-otel4-сотрудник-e",
+  "external": false,
+  "caption": "Сотрудник",
+  "name": "IISOtel4СотрудникL",
+  "className": "СотрудникL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-otel4-сотрудник",
+      "modelProjection": "СотрудникL"
+    }
+  ]
+}
